@@ -20,14 +20,17 @@ const Hero = () => {
           title="Explort Cars"
           containerStyle="bg-primary-blue text-white rounded-full mt-10"
           handleClick={handleScroll}
+          btnType="button"
         />
       </div>
 
-      {/* <div className="hero__image-container">
+      <div className="hero__image-container">
         <div className="hero__image">
-          <Image src={}/>
+          <Image src="/hero.png" alt="hero" fill className="object-contain"/>
+        
+          <div className="hero__image-overlay"></div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
