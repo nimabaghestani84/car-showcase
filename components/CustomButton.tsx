@@ -14,6 +14,8 @@ const CustomButton = ({title,containerStyle,handleClick,btnType,textStyles,right
       {rightIcon&&(
         <div className="relative w-6 h-6">
             <Image
+            width={50}
+            height={50}
             src={rightIcon}
             alt="icon"
             className="object-contain"
